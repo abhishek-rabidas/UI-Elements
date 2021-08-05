@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #eee;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#outer {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(#372B59, #2E3049);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#cover {
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#cover img {
+    width: 100%;
+    border-radius: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+.text-below {
+    color: white;
+    text-align: center;
+}
+
+#title {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#subtitle {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#circle {
+    width: 100%;
+}
+
+#control-bar {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#control-btns {
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 4;
+}
+
+.c-btn {
+    color: white;
+    font-size: 1.5rem;
+}
+
+#track-bar {
+    width: 80%;
+    height: 5px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    background-color: gray;
+}
+
+#track-bar-inner {
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 70%;
+    height: 5px;
+    background-color: #FF2A57;
+}

@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #eee;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#outer {
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#top-heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+#subheading {
+    color: rgb(78, 78, 78);
+}
+
+#graph {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bar {
+    border-radius: 5px;
+    width: 10px;
+    height: 200px;
+    background-color: rgb(218, 218, 218);
+    position: relative;
+}
+
+.bar div {
+    background-color: rgb(233, 0, 58);
+}
+
+#bar-1 {
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+#bar-2 {
+    width: 100%;
+    height: 30%;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+#bar-3 {
+    width: 100%;
+    height: 60%;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+#bar-4 {
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+#bar-5 {
+    width: 100%;
+    height: 40%;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+#bar-5 {
+    width: 100%;
+    height: 40%;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+#bar-6 {
+    width: 100%;
+    height: 45%;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+#bar-7 {
+    width: 100%;
+    height: 40%;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+#bar-8 {
+    width: 100%;
+    height: 45%;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+#bar-9 {
+    width: 100%;
+    height: 60%;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+#bar-10 {
+    width: 100%;
+    height: 20%;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+#bar-11 {
+    width: 100%;
+    height: 25%;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+#bar-12 {
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+#bar-13 {
+    width: 100%;
+    height: 60%;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+#bar-14 {
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+}
