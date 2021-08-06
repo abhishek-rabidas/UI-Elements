@@ -3,6 +3,11 @@ document.getElementById("submit").addEventListener("click", (e) => {
 
 
     if (email.length == 0) {
+        alert("Enter email!");
+        return;
+    }
+
+    if (!email.includes("@")) {
         alert("Enter correct email!");
         return;
     }
