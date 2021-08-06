@@ -30,4 +30,6 @@ document.getElementById("submit").addEventListener("click", (e) => {
     }`;
 
     xhr.send(data);
+
+    alert("Thanks for subscribing!")
 });
